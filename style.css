@@ -1,0 +1,54 @@
+body {
+  background-color: rgba(24, 13, 87, 0.856);
+}
+.panels {
+  background-color: rgb(6, 111, 153);
+  margin: auto;
+  margin-top: 25%;
+  transform: scale(2);
+  max-width: 100px;
+  display: grid;
+  grid-gap: 20px;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px));
+  border: 2px solid rgb(92, 19, 19);
+  border-radius: 12px;
+}
+button {
+  border: none;
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+  background-color: rgb(40, 240, 33);
+  color: white;
+}
+button:hover {
+  background-color: yellowgreen;
+}
+button:active {
+  transform: scale(0.9);
+}
+.buttons {
+  font-size: 20px;
+  text-align: center;
+}
+
+.znaki {
+  padding-top: 10px;
+}
+.resault {
+  padding: 1px;
+  width: 74px;
+  height: 17px;
+  font-size: 15px;
+}
+#del {
+  width: 20px;
+  height: 23px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 20px;
+}
